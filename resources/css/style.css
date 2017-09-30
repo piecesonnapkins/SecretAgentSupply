@@ -3,3 +3,7 @@ html {
   font-size: 18pt;
   color: white;
 }
+
+.advert {
+  background-image: url(https://github.com/piecesonnapkins/SecretAgentSupply/blob/master/resources/images/moto.jpeg?raw=true);
+}
