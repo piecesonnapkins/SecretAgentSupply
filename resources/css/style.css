@@ -1,9 +1,46 @@
 html {
   background-color: black;
   font-size: 18pt;
+  font-family: Helvetica;
   color: white;
+}
+
+.logo {
+  font-size: 1rem;
+  border: 12px solid pink;
 }
 
 .advert {
   background-image: url(https://github.com/piecesonnapkins/SecretAgentSupply/blob/master/resources/images/moto.jpeg?raw=true);
+  border: 12px solid green;
+}
+
+nav {
+  border: 12px solid orange;
+}
+
+.item {
+  border: 12px solid aqua;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  border: 12px solid blue;
+}
+
+h2 {
+  border: 12px solid purple;
+}
+
+h3 {
+  border: 12px solid grey;
+}
+
+h4 {
+  border: 12px solid yellow;
+}
+
+footer {
+  border: 12px solid coral;
 }
