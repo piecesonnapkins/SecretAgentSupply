@@ -7,32 +7,57 @@ html {
 }
 
 header {
-  text-transform: uppercase;
+
 }
 
 .logo {
   font-size: 1rem;
+  text-transform: uppercase;
+  top: 0.66rem;
+  bottom: 0.66rem;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding: 0.5rem;
+  border: 3px solid pink;
 }
 
 .advert {
   background-image: url(https://github.com/piecesonnapkins/SecretAgentSupply/blob/master/resources/images/moto.jpeg?raw=true);
-  height: 25rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
   width: 100%;
-  border: 12px solid green;
 }
 
-.advert h1, h2 {
+.headline {
   background-color: black;
-  width: 20rem;
+  width: 20em;
   text-transform: uppercase;
+  position: relative;
+  top: 9em;
+  padding: 2em 3em;
 }
 
 nav {
-  border: 12px solid orange;
   background-color: firebrick;
   height: 2.5rem;
   width: 100%;
   text-align: center;
+  display: block;
+  justify-content: space-between;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+a {
+  color: white;
+}
+
+a.hover {
+  color: red;
 }
 
 .item {
